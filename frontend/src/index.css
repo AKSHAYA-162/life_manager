@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+  --background: #fed0bb;
+  --surface: #fcb9b2;
+  --on-surface: #461220;
+  --accent: #b23a48;
+  --on-accent: #fed0bb;
+  --border-radius: 10px;
+}
+
+body {
+  background-color: var(--background);
+}

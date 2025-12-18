@@ -1,0 +1,18 @@
+.register-page {
+  display: flex;
+  min-height: 100dvh;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-page .container {
+  background-color: var(--surface);
+  padding: 10px;
+  border-radius: var(--border-radius);
+}
+
+.register-page .container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
